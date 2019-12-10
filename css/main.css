@@ -13,15 +13,69 @@ body{
     justify-content: flex-end;
     align-items: center;
     border: 1px solid red;
+    height: 60px;
 }
 
 .header nav{
     display: flex;
+    border: 1px solid blue;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.5em;
+}
+
+a{
+    text-decoration: none;
 }
 
 .header nav a{
-    padding: 1em;
-    text-decoration: none;
+    padding: 0.5em;
     color: black;
     font-size: 14px;
+}
+
+.header nav a figure{
+    border: 1px solid red;
+    height: 30px;
+    width: 30px;
+}
+
+.header nav a img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.header nav .menu-icon{
+    background-image: url('https://static.thenounproject.com/png/756729-200.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
+
+
+main{
+    margin-top: 89px;
+    text-align:center;
+}
+
+.main-logo{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    border: 1px solid red;
+}
+
+
+main .main-input{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-input-container{
+    
 }
